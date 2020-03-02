@@ -183,6 +183,25 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #000 solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #2d50c5;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
